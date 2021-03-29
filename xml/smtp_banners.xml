@@ -268,7 +268,7 @@
     <param pos="0" name="service.family" value="IIS"/>
     <param pos="0" name="service.product" value="IIS"/>
     <param pos="2" name="service.version"/>
-    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:iis:{service.version}"/>
+    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:internet_information_services:{service.version}"/>
     <param pos="1" name="host.name"/>
     <param pos="3" name="system.time"/>
     <param pos="0" name="system.time.format" value="EEE, d MMM yyyy HH:mm:ss Z"/>
@@ -285,7 +285,7 @@
     <param pos="0" name="service.family" value="IIS"/>
     <param pos="0" name="service.product" value="IIS"/>
     <param pos="2" name="service.version"/>
-    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:iis:{service.version}"/>
+    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:internet_information_services:{service.version}"/>
     <param pos="1" name="host.name"/>
     <param pos="3" name="system.time"/>
     <param pos="0" name="system.time.format" value="EEE, d MMM yyyy HH:mm:ss Z"/>
@@ -302,7 +302,7 @@
     <param pos="0" name="service.family" value="IIS"/>
     <param pos="0" name="service.product" value="IIS"/>
     <param pos="3" name="service.version"/>
-    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:iis:{service.version}"/>
+    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:internet_information_services:{service.version}"/>
     <param pos="1" name="host.name"/>
     <param pos="2" name="system.time"/>
     <param pos="0" name="system.time.format" value="EEE, d MMM yyyy HH:mm:ss Z"/>
@@ -323,7 +323,7 @@
     <param pos="0" name="service.family" value="IIS"/>
     <param pos="0" name="service.product" value="IIS"/>
     <param pos="2" name="service.version"/>
-    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:iis:{service.version}"/>
+    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:internet_information_services:{service.version}"/>
     <param pos="1" name="host.name"/>
     <param pos="3" name="system.time"/>
     <param pos="0" name="system.time.format" value="EEE, d MMM yyyy HH:mm:ss Z"/>
