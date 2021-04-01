@@ -12,7 +12,7 @@
     <param pos="0" name="service.product" value="IIS"/>
     <param pos="0" name="service.family" value="IIS"/>
     <param pos="2" name="service.version"/>
-    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:iis:{service.version}"/>
+    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:internet_information_services:{service.version}"/>
     <param pos="0" name="os.vendor" value="Microsoft"/>
     <param pos="0" name="os.family" value="Windows"/>
     <param pos="0" name="os.product" value="Windows NT"/>
@@ -27,7 +27,7 @@
     <param pos="0" name="service.product" value="IIS"/>
     <param pos="0" name="service.family" value="IIS"/>
     <param pos="0" name="service.version" value="5.0"/>
-    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:iis:5.0"/>
+    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:internet_information_services:5.0"/>
     <param pos="0" name="os.vendor" value="Microsoft"/>
     <param pos="0" name="os.family" value="Windows"/>
     <param pos="0" name="os.product" value="Windows 2000"/>
@@ -41,7 +41,7 @@
     <param pos="0" name="service.vendor" value="Microsoft"/>
     <param pos="0" name="service.product" value="IIS"/>
     <param pos="0" name="service.family" value="IIS"/>
-    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:iis:-"/>
+    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:internet_information_services:-"/>
     <param pos="0" name="os.vendor" value="Microsoft"/>
     <param pos="0" name="os.family" value="Windows"/>
     <param pos="0" name="os.product" value="Windows"/>
@@ -55,7 +55,7 @@
     <param pos="0" name="service.vendor" value="Microsoft"/>
     <param pos="0" name="service.product" value="IIS"/>
     <param pos="0" name="service.family" value="IIS"/>
-    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:iis:-"/>
+    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:internet_information_services:-"/>
     <param pos="0" name="os.vendor" value="Microsoft"/>
     <param pos="0" name="os.family" value="Windows"/>
     <param pos="0" name="os.product" value="Windows"/>
@@ -69,7 +69,7 @@
     <param pos="0" name="service.vendor" value="Microsoft"/>
     <param pos="0" name="service.product" value="IIS"/>
     <param pos="0" name="service.family" value="IIS"/>
-    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:iis:-"/>
+    <param pos="0" name="service.cpe23" value="cpe:/a:microsoft:internet_information_services:-"/>
     <param pos="0" name="os.vendor" value="Microsoft"/>
     <param pos="0" name="os.family" value="Windows"/>
     <param pos="0" name="os.product" value="Windows"/>
