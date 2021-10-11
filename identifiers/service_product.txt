@@ -3,14 +3,18 @@
 11000 Series Content Service Switch
 2wire
 389 Directory Server
+3CX Web Server
 4690 FTP Server
 ADAudit Plus
+AIOHTTP
 AOS
 APIC
 ARRIS
 ASM
 ASP.NET
 Abyss Web Server X1
+Abyss Web Server X2
+Access Manager
 Active Directory Controller
 Active Intelligence Engine
 ActiveMQ
@@ -23,16 +27,19 @@ AnswerX
 Antivirus for Gateways
 Apache Tomcat HTTP Connector
 AppleShare IP Mail Server
+Application Load Balancer
 Application Protection System, Enterprise
 Application Server Portal
 Application Server Web Cache
 Appweb
 Arachni
+Artifactory
 Aspen
 Aura Communication Manager
 AuthServ
 Authoritative Server
 Avahi
+Azure App Service on Azure Stack
 BIG-IP LTM
 BIND
 BRCM400
@@ -77,10 +84,12 @@ Connect
 ConnectUPS
 Consul
 Content Server
+Control
 CouchDB
 Couchbase Server
 Courier IMAP
 Courier POP
+Cowboy
 Coyote
 Cross Web Server
 CrushFTP Web Interface
@@ -115,12 +124,16 @@ E-mail Services
 ESMTP
 EWS
 Ecelerity Mail Server
+Elastic Load Balancer
+Elastic Load Balancing
 EmWeb
 Email Appliance
 Email Security
+Email Security Gateway
 Embedded SSH Server
 Endpoint Protection Manager
 Enterprise
+Envoy
 Exchange 2000 Server
 Exchange 2003 Server
 Exchange 2007 Server
@@ -138,17 +151,22 @@ FastTrack Server
 Fiery Print Server
 FileZilla Server
 Firewall-1
+Fireware XTM
+Fisheye
 Flink
 Flower
 Flussonic Media Server
+Flyspray
 FortiVoice
 FortressSSH Server
 FreSSH
 FreeSWITCH
+Fusion Middleware
 GHost
 GNAT Box
 GStreamer RTSP Server
 Gateway
+Gerrit
 GitLab
 Gitea
 GlassFish Server
@@ -219,6 +237,7 @@ Kestrel web server
 Kibana
 Kiwi Syslog
 Knot DNS
+Kubernetes
 LDAP Agent for eDirectory
 LDAP Server
 LLBServer
@@ -247,6 +266,7 @@ Management Console
 Management Server
 Management Service
 MariaDB
+Mastodon
 MaxScale
 Media Server
 MediaSense
@@ -258,8 +278,9 @@ MetaDirectory Server
 Metabase
 Metasploit
 MiniDLNA
-MiniUPnP
+MiniUPnPd
 MobaXterm
+MoinMoin
 Mongoose
 Mongrel
 Monit
@@ -269,7 +290,9 @@ Multicraft
 Munin
 MySQL
 MySQL Proxy
+NGINX Ingress Controller
 NNTP
+NQ
 NTMail
 NTP
 Nagios Log Server
@@ -296,14 +319,17 @@ NetWeaver Application Server
 NetWeaver Application Server Java
 NetWeaver Internet Communication Manager
 NetWeaver Web AS
+Netscaler
 Network Monitor
 Network Printer Manager
 Nexpose
+Nextcloud Server
 Nexus Repository Manager
 Niagara AX
 Node
 Notebook
 Nucleus SNMP Agent
+Observium
 OpManager
 Open Directory
 Open Stack Platform Director
@@ -332,6 +358,7 @@ PHP
 PMS
 PMail Server
 PWS
+Panorama Server
 Paramiko
 Percona Server
 Perl
@@ -348,7 +375,6 @@ PowerMTA
 ProFTPD
 ProRat
 Prometheus
-Proxmox
 Proxy
 Proxygen
 Pulse Connect Secure
@@ -364,6 +390,7 @@ Recursor
 Red Hat Directory Server
 Redmine
 Reflection
+Reflection for Secure IT
 ReflectionX
 RemoteView
 Resin
@@ -378,7 +405,6 @@ S7/S5 OPC Server
 SABnzbd
 SAP Message Server
 SCO X server
-SIP Server
 SIP Stack
 SIPPS IP Phone
 SLMail
@@ -395,9 +421,11 @@ SSL-VPN
 STARFACE PBX
 STUN Server
 SWAT
+Sage X3 Syracuse Web Server
 Samba
 Search
 Secure FTP Server
+Secure Global Desktop
 Secure Tencent Gateway
 SecureTransport
 Security Center
@@ -420,8 +448,10 @@ Snowball
 SonarQube
 SpeedTouch
 Splunk
+Squeezebox
 Squid
 StarNet X-Win32
+Streaming Engine
 Stronghold
 Sun Directory Proxy Server
 Sun Directory Server
@@ -435,6 +465,7 @@ TBS FTP Server
 TCP/IP
 TCPIP POP server
 TUX Web Server
+Tableau Server
 TeamCity
 Tengine
 TestCenter IQ
@@ -447,13 +478,17 @@ Tivoli Storage Manager
 Tomcat
 Tor
 Tornado
+Traefik Proxy
+Transportation Management
 Twisted FTPD
 Twisted Web
 Twonky Media Server
 UnboundID Directory Proxy Server
 UnboundID Directory Server
 UniFi Video
+Universal Management Appliance
 Urchin Tracking Module
+Usermin
 VM
 VMS SFTP Server
 VOPMail
@@ -463,8 +498,10 @@ VShell
 Varnish
 Vault
 VcXsrv
+View
 Vignette
 Virtual Directory Server
+Virtual Environment
 Virtualization Manager
 VisionFS
 VxWorks CIFS
@@ -478,6 +515,7 @@ Web Client
 Web Jetadmin
 Web PN Server
 Web Server
+Web Station
 WebGUI
 WebLogic
 WebServer
@@ -485,6 +523,7 @@ WebShield
 WebSphere
 WebSphere Load Balancer
 WebTrends
+Webmin
 Webserver
 Werkzeug
 WildFly
@@ -492,6 +531,7 @@ WinRoute
 WinSSHD
 WinWebMail
 Windows CE Web Server
+Windows Media Player
 Windows Media Server
 Wing FTP Server
 Work Server
@@ -505,6 +545,7 @@ XSun Solaris X11 server
 XenServer
 Xming
 Xvnc
+YNQ
 ZMailer
 Zabbix
 Zimbra
@@ -522,6 +563,7 @@ dnsd
 eDirectory
 ePolicy Orchestrator
 emHTTPD
+etherpad
 exim
 flowssh
 gSOAP
@@ -550,6 +592,8 @@ mod_auth_dbm
 mod_auth_digest
 mod_auth_form
 mod_auth_ldap
+mod_auth_oracle
+mod_auth_pgsql
 mod_auth_radius
 mod_authn_alias
 mod_authn_anon
@@ -600,6 +644,8 @@ mod_ext_filter
 mod_fcgid
 mod_file_cache
 mod_filter
+mod_frontpage
+mod_gzip
 mod_headers
 mod_heartbeat
 mod_heartmonitor
@@ -683,6 +729,7 @@ mod_xml2enc
 nginx
 noVNC
 ownCloud Server
+perl
 pfSense
 qmail
 qpopper-mysql
@@ -695,7 +742,9 @@ tnftpd
 uc-httpd
 ucftpd
 unbound
+uvicorn
 vCenter
+vCenter Converter
 vmauthd
 vsFTPd
 vsFTPd Extended

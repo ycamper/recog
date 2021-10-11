@@ -29,8 +29,11 @@ Honeywell
 ILOM
 IMDVR
 ION
+imageClass
+imageRunner
 JetDirect
 LaserJet
+Laser Printer
 LinkCom Xpress
 MGate
 MPEG4 DVR
@@ -45,8 +48,11 @@ Multifunction
 My Book
 NE
 NPort
+NetScaler
 NetVanta
+Netscaler
 Network Audio
+Network Security Appliance
 Network Video Door Station
 Optra
 Orbi
@@ -88,7 +94,9 @@ UniFi
 Unified Security Gateway
 VDX
 VSX
+Vigor
 VoIP
+VVX
 WD2GO
 WiMax
 Wide Format
@@ -99,6 +107,7 @@ Xserve
 ZXDSL
 ZXHN
 ZXV
+airMAX
 iLO
 iMac
 iPad

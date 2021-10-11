@@ -17,30 +17,40 @@
   <fingerprint pattern="^$">
     <description>empty string -- assert nothing.</description>
     <example/>
+    <param pos="0" name="hw.certainty" value="0.0"/>
+    <param pos="0" name="os.certainty" value="0.0"/>
     <param pos="0" name="service.certainty" value="0.0"/>
   </fingerprint>
 
   <fingerprint pattern="^none$">
     <description>bare 'none' -- assert nothing.</description>
     <example>none</example>
+    <param pos="0" name="hw.certainty" value="0.0"/>
+    <param pos="0" name="os.certainty" value="0.0"/>
     <param pos="0" name="service.certainty" value="0.0"/>
   </fingerprint>
 
   <fingerprint pattern="^null$">
     <description>bare 'null' -- assert nothing.</description>
     <example>null</example>
+    <param pos="0" name="hw.certainty" value="0.0"/>
+    <param pos="0" name="os.certainty" value="0.0"/>
     <param pos="0" name="service.certainty" value="0.0"/>
   </fingerprint>
 
   <fingerprint pattern="(?i)^unknown$">
     <description>bare 'unknown' -- assert nothing.</description>
     <example>unknown</example>
+    <param pos="0" name="hw.certainty" value="0.0"/>
+    <param pos="0" name="os.certainty" value="0.0"/>
     <param pos="0" name="service.certainty" value="0.0"/>
   </fingerprint>
 
   <fingerprint pattern="^no version$">
     <description>bare 'no version' -- assert nothing.</description>
     <example>no version</example>
+    <param pos="0" name="hw.certainty" value="0.0"/>
+    <param pos="0" name="os.certainty" value="0.0"/>
     <param pos="0" name="service.certainty" value="0.0"/>
   </fingerprint>
 
@@ -427,7 +437,7 @@
     <param pos="0" name="service.cpe23" value="cpe:/a:powerdns:authoritative_server:{service.version}"/>
   </fingerprint>
 
-  <fingerprint pattern="^PowerDNS Authoritative Server (\d\.[\w.]+(?:-rc\d)?(?:-alpha\d)?(?:-beta\d)?[^ ]*) \(built [\w\s:]+ by [\w]+\@[\w.-:-]*\)$">
+  <fingerprint pattern="^PowerDNS Authoritative Server (\d\.[\w.]+(?:-rc\d)?(?:-alpha\d)?(?:-beta\d)?[^ ]*) \(built [\w\s:]+ by [\w]+\@[\w.:-]*\)$">
     <description>PowerDNS Authoritative Server: format 2</description>
     <example service.version="4.0.4">PowerDNS Authoritative Server 4.0.4 (built Jul 26 2017 15:04:27 by root@FreeBSD:11:amd64-default-job-03)</example>
     <example service.version="4.0.0-rc2">PowerDNS Authoritative Server 4.0.0-rc2 (built Jul  4 2016 15:44:39 by root@foo-bar.baz)</example>

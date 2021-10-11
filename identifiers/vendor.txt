@@ -1,3 +1,4 @@
+3CX
 3Com
 8x8 Inc.
 A.K.I Software
@@ -6,6 +7,7 @@ ACT Security
 ADB
 ADC
 ADTRAN
+AIOHTTP Project
 ALCATEL
 ALT
 ALU
@@ -91,6 +93,7 @@ BT
 Bandura Labs
 Bangteng
 Barco
+Barracuda
 Berkeley Software Design Inc.
 Bftpd Project
 Bigfoot
@@ -159,6 +162,7 @@ Compuware
 Conectiva
 Conexant
 Congruency, Inc.
+ConnectWise
 Couchbase
 Cradlepoint
 Crestron
@@ -215,7 +219,9 @@ Embedthis
 Emby
 Emerson
 Emulex
+Encode
 Enterasys
+Envoy Proxy
 Epson
 EqualLogic
 Equivalence (OpenH323)
@@ -240,6 +246,7 @@ Firefly
 Floosietek
 FlowPoint
 Flussonic
+Flyspray
 Folding@home
 Fortinet
 Foscam
@@ -326,6 +333,8 @@ Internet Archive
 Inveo
 Ipswitch
 Isilon
+Istio
+JFrog
 Jamf
 Jellyfin
 Jenkins
@@ -371,6 +380,7 @@ Linksys
 Linux
 LiteSpeed Technologies
 LiveWorks Limited
+Logitech
 Lotus
 Loxone
 Lucent
@@ -396,6 +406,7 @@ Media5 Corporation
 MediaGate
 Mediatrix Telecom
 Merak
+Meraki
 Mercury Security
 Merit LILIN
 Mersive
@@ -413,6 +424,7 @@ Mitel
 Mobatek
 Mobotix
 Mocana
+MoinMoin
 Moodle
 Mort Bay
 Motion Media Technology
@@ -453,6 +465,7 @@ Netwave
 Network Alchemy Limited
 Network Equipment Technologies
 Neustar
+Nextcloud
 Nokia
 Nokia-Siemens
 Nominum
@@ -461,6 +474,7 @@ Norton
 Novell
 OPNsense
 Objective Communications
+Observium
 Oce
 Octopus
 Oki
@@ -499,6 +513,7 @@ Paramiko
 Paul Smith Computer Services
 Pelco
 Percona
+Perl
 Phacility
 Philips
 Philips Video Conferencing Systems
@@ -578,6 +593,7 @@ SSH Communications Security
 STARFACE GmhH
 SUSE
 SafeNet
+Sage
 Samba
 Samsung
 Sangoma
@@ -611,6 +627,7 @@ Silver Peak
 Siqura
 Slackware
 SmoothWall
+SnapServer
 Sofrel
 Softing
 SolarWinds
@@ -648,12 +665,14 @@ Syndeo Corp.
 Synology
 SysMaster Corporation
 Systech
+Teradici
 TIS
 TLD
 TP-LINK
 TRENDnet
 TVersity
 TYPO3
+Tableau
 Tandberg
 Taobao
 Tasman Networks
@@ -680,6 +699,7 @@ Tokutek
 Tor Project
 TornadoWeb
 Toshiba
+Traefik Labs
 Treck
 Tridium
 Troy
@@ -710,6 +730,7 @@ VideoServer
 Vignette
 Vine
 Vircom
+Visuality Systems
 Vizio
 VocalTec Communications, Inc.
 Västgöta-Data AB
@@ -719,12 +740,14 @@ Washington University
 WatchGuard
 WeOnlyDo
 WebTrends
+Webmin
 Westbay Engineers
 Westell
 Western Digital
 White Box
 Wildix
 Wind River
+Wowza
 Wowza Media Systems
 X.Org
 XAMPP
@@ -755,6 +778,7 @@ cPanel
 cz.nic
 enGenius
 estos
+etherpad
 exim
 gdnsd
 home.pl
@@ -766,11 +790,11 @@ lighttpd
 mod_ssl
 mod_wsgi
 nginx
+ninenines
 noVNC
 ownCloud
 pfSense
 port25
-proxmox
 qmail
 rPath
 vsFTPd Project

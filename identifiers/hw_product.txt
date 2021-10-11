@@ -20,6 +20,7 @@ Apple TV (2nd generation)
 Apple TV (3rd generation)
 Apple TV (4th generation)
 Apple TV 4K
+Apple TV 4K (2nd generation)
 Appliance
 ArchiveTeam Warrior
 Asset Management
@@ -62,8 +63,10 @@ EP-series
 EXA Signal Analyzer
 Eagle Eye Director II
 EchoLife Home Gateway
+EdgeRouter X
 EdgeSwitch
 Elevation
+Email Security Gateway
 EqualLogic
 Ethernet Relay Controller
 Ethernet Relay Module
@@ -202,15 +205,20 @@ Mergepoint
 Miniserver
 My Book Live
 N5172B Signal Generator
+NAM
 NAS4Free
 NFVIS
 NPort
+NetScaler Gateway
+NetScaler SDX Gateway
 NetScreen
 NetVR
 Netbox
+Netscaler Gateway
 Network Camera
 Network Gateway
 Network Node
+Network Security Appliance
 Nexus 1000V
 Nexus Player
 OfficeConnect Switch
@@ -220,6 +228,7 @@ OpenManage Switch
 OpenNAC
 Orbi micro
 Orbit IP Camera
+PCoIP Endpoint Device
 PDR M800
 PIAF Virtual Appliance
 PLAY
@@ -290,6 +299,9 @@ UCM6202
 UCM6204
 UCM6208
 UCS Manager
+USG20-VPN
+USG40
+USG60
 UniFi Cloud Key
 UniFi NVR
 UniFi Security Gateway
@@ -325,6 +337,7 @@ iCOM Control Panel
 iDRAC
 iLO
 iLO 3
+iLO 4
 iMac (20/24-inch, Early 2008)
 iMac (21.5-inch, 2017)
 iMac (21.5-inch, Late 2012)

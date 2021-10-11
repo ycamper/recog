@@ -12,6 +12,7 @@ Application Protection System
 Appweb
 Atlas Anchor
 Aura
+Azure
 BIG-IP
 BIND
 Bftpd
@@ -40,6 +41,7 @@ DSM
 DSView
 David
 Desktop Authority
+Diskstation
 Dnsmasq
 Dovecot
 Dropbear
@@ -47,7 +49,6 @@ Dynamo
 E-mail Services
 EWS
 Ecelerity Mail Server
-Elastic Load Balancing
 EmWeb
 Email Security
 Embedded SSH Server
@@ -94,6 +95,7 @@ JetDirect
 Jetty
 Joom!Fish
 Knot
+Kubernetes
 ListManager
 Lotus Domino
 Lotus Expeditor
@@ -127,6 +129,7 @@ NetWare Enterprise Web Server
 NetWare HTTP Server
 NetWare HTTP Stack
 NetWeaver
+Netscaler
 Network Printer Manager
 Niagara
 OpenAdStream
@@ -167,6 +170,7 @@ SMH
 SSH
 SSH Tectia Server
 SSL-VPN
+Sage X3 Syracuse Web Server
 Samba
 Secure Access Gateway
 Secure FTP Server
@@ -186,6 +190,7 @@ TippingPoint
 Tivoli
 Tomcat
 Tornado
+Traefik
 Twisted
 Twisted Web
 UPnP
@@ -206,6 +211,7 @@ VoiP Gateway
 WS_FTP
 WeOnlyDo
 Web PN Server
+Web Services
 WebGUI
 WebLogic
 WebServer

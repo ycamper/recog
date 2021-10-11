@@ -341,7 +341,7 @@
     <param pos="0" name="os.cpe23" value="cpe:/o:apple:mac_os_x:10.10"/>
   </fingerprint>
 
-  <fingerprint pattern="^.*version=&quot;ntpd ([^ p]+)(:?p[^ &quot;]+)?[^&quot;]+&quot;,.*processor=&quot;([^ ]+)&quot;,.*system=&quot;FreeBSD/?(?:[^ ]+-NETSCALER-([^ ]+))&quot;" flags="REG_DOT_NEWLINE,REG_ICASE">
+  <fingerprint pattern="^.*version=&quot;ntpd ([^ p]+)(p[^ &quot;]+)?[^&quot;]+&quot;,.*processor=&quot;([^ ]+)&quot;,.*system=&quot;FreeBSD/?(?:[^ ]+-NETSCALER-([^ ]+))&quot;" flags="REG_DOT_NEWLINE,REG_ICASE">
     <description>ntpd running on Citrix Netscaler, which is based on FreeBSD</description>
     <example service.version="4.2.6" service.version.version="p2@1.2194" os.arch="i386" os.version="9.3">
       version="ntpd 4.2.6p2@1.2194 Wed Nov 24 15:54:11 UTC 2010 (1)",
@@ -362,6 +362,7 @@
     <param pos="0" name="os.product" value="NetScaler"/>
     <param pos="3" name="os.arch"/>
     <param pos="4" name="os.version"/>
+    <param pos="0" name="os.cpe23" value="cpe:/o:citrix:netscaler_firmware:{os.version}"/>
   </fingerprint>
 
   <fingerprint pattern="^.*version=&quot;ntpd ([^ ]+)[^&quot;]+&quot;,.*processor=&quot;([^ ]+)&quot;,.*system=&quot;FreeBSD/?([^ ]+)&quot;" flags="REG_DOT_NEWLINE,REG_ICASE">
@@ -927,6 +928,11 @@
     <param pos="0" name="os.cpe23" value="cpe:/o:hp:hp-ux:{os.version}"/>
   </fingerprint>
 
+  <!--
+    This may need to be split into ESX and ESXi. ESXi started w/ version 4.1 and
+    all versions 5.x were ESXi only.
+    -->
+
   <fingerprint pattern="^.*version=&quot;ntpd ([^ ]+)[^&quot;]+&quot;,.*processor=&quot;([^ ]+)&quot;,.*system=&quot;VMkernel/?([^ ]+)?&quot;" flags="REG_DOT_NEWLINE,REG_ICASE">
     <description>ntpd running on VMware ESXi</description>
     <example>
@@ -1032,7 +1038,7 @@
     <param pos="0" name="os.family" value="Data ONTAP"/>
     <param pos="0" name="os.product" value="Data ONTAP"/>
     <param pos="1" name="os.version"/>
-    <param pos="0" name="ow.device" value="NAS"/>
+    <param pos="0" name="os.device" value="NAS"/>
     <param pos="0" name="os.cpe23" value="cpe:/o:netapp:data_ontap:{os.version}"/>
     <param pos="0" name="hw.vendor" value="NetApp"/>
     <param pos="0" name="hw.device" value="NAS"/>

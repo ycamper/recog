@@ -68,8 +68,6 @@ Document Centre
 Dynix
 EDR G902 Firmware
 EDR G903 Firmware
-ESX
-ESXi
 EdgeBlaster
 EdgeOS
 Email Appliance
@@ -78,7 +76,6 @@ Enterprise Linux
 Enterprise WAP
 EqualLogic
 Excella
-FRITZ!BOX
 FRITZ!OS
 Fabric OS
 Fastmark M5
@@ -100,6 +97,7 @@ GXP1628 Firmware
 GXP2200 Firmware
 GigaVUE HD
 GigaVUE TA1
+GuardianOS
 HP-UX
 HT801 Firmware
 HT802 Firmware
@@ -157,6 +155,7 @@ NetScaler Gateway
 NetScaler SDX Gateway
 NetVanta
 NetWare
+Netscaler Gateway Firmware
 Network Gateway
 Network Scanner
 Network Storage Router
@@ -173,14 +172,12 @@ OpenServer
 OpenTV
 OpenVMS
 OpenWall
-PA Firewall
-PANOS
+PAN-OS
 PIX
 PLC-5
 PRO/100
 PacketShaper
 PalmOS
-Panorama Server
 Photon Linux
 PocketPro
 Polycom
@@ -193,13 +190,14 @@ Prestige 660HW-D1
 Prestige 660ME-61
 Prime Collaboration Manager
 Print Server
-Print server
 PrintServer
 Printer
 Printer Board
 ProLiant
+Prosafe Firmware
 Proxmox
 Pulse Connect Secure
+QTS
 RASExpress
 RDK
 RISC OS
@@ -259,6 +257,9 @@ UCM6204 Firmware
 UCM6208 Firmware
 UCS Device
 UNIX
+USG20-VPN firmware
+USG40 firmware
+USG60 firmware
 Ubuntu Linux
 Ultrix
 UnixWare
@@ -268,7 +269,6 @@ VIOS
 VMS
 VMware ESX Server
 VMware ESXi Server
-VPN
 VPN 3000 Concentrator
 VRP
 Virtual Library
@@ -317,16 +317,19 @@ WorkCentre Pro
 X3e 31C-M
 XCC Linux
 XOS
+XenServer
 Zentyal
 Zone Director
 ZyNOS firmware
 audioOS
 e-STUDIO
 eCos
+i5/OS
 iDRAC Linux
 iLO
 iLO 2
 iLO 3
+iLO 4
 iOS
 iScale
 im
