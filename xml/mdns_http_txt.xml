@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprints matches="mdns.device-info.txt" protocol="mdns" database_type="util.os">
+  <!--
+    Fingerprint definitions that are matched against the string values in the
+    TXT record returned by an mDNS endpoint for the '_http._tcp.local.'
+    domain name (class IN). Note that the host name may need to be prepended
+    to the domain name for a server to respond with the record:
+    e.g. 'host-name._http._tcp.local'.
+  -->
+
+  <fingerprint pattern="^model=DS\d+(\+|\+II|slim|j|xs|se|play|$)">
+    <description>Synology Diskstation</description>
+    <example>model=DS3617xs</example>
+    <param pos="0" name="hw.vendor" value="Synology"/>
+    <param pos="0" name="hw.family" value="Diskstation"/>
+    <param pos="0" name="hw.product" value="DS"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:synology:diskstation:-"/>
+    <param pos="0" name="hw.device" value="NAS"/>
+  </fingerprint>
+
+  <fingerprint pattern="^model=RS\d+(xs|xs\+|RP|RP\+|$)">
+    <description>Synology Rackstation</description>
+    <example>model=DS3617xs</example>
+    <param pos="0" name="hw.vendor" value="Synology"/>
+    <param pos="0" name="hw.family" value="Rackstation"/>
+    <param pos="0" name="hw.product" value="RS"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:synology:rackstation:-"/>
+    <param pos="0" name="hw.device" value="NAS"/>
+  </fingerprint>
+
+  <fingerprint pattern="^vendor=[Ss]ynology$">
+    <description>Synology Device</description>
+    <example>vendor=Synology</example>
+    <param pos="0" name="hw.vendor" value="Synology"/>
+    <param pos="0" name="hw.family" value="Storage"/>
+    <param pos="0" name="hw.product" value="Generic"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:synology:nas:-"/>
+    <param pos="0" name="hw.device" value="NAS"/>
+  </fingerprint>
+
+
+  <fingerprint pattern="^model=(MR|RT)(1900|2200|2600)ac$">
+    <description>Synology AC WiFi Router</description>
+    <example>model=RT2600ac</example>
+    <param pos="0" name="hw.vendor" value="Synology"/>
+    <param pos="0" name="hw.family" value="Router"/>
+    <param pos="0" name="hw.product" value="RT2600ac"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:synology:rt2600ac:-"/>
+    <param pos="0" name="hw.device" value="WiFi Router"/>
+  </fingerprint>
+
+  <fingerprint pattern="^modelName=(WDMy|My)Cloud(EX4|EX2|EX2Ultra|PR4100$)">
+    <description>Western Digital MyCloud</description>
+    <example>model=RT2600ac</example>
+    <param pos="0" name="hw.vendor" value="Western Digital"/>
+    <param pos="0" name="hw.family" value="MyCloud"/>
+    <param pos="0" name="hw.product" value="MyCloud"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:western_digital:my_cloud:-"/>
+    <param pos="0" name="hw.device" value="NAS"/>
+  </fingerprint>
+
+  <fingerprint pattern="^vendorUrl=http:\/\/www\.devolo\.de$">
+    <description>devolo Home Control</description>
+    <example>vendorUrl=http://www.devolo.de</example>
+    <param pos="0" name="hw.vendor" value="Devolo"/>
+    <param pos="0" name="hw.family" value="Home Control"/>
+    <param pos="0" name="hw.product" value="Home Control"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:devolo:home_control:-"/>
+    <param pos="0" name="hw.device" value="Smart Hub"/>
+  </fingerprint>
+
+  <fingerprint pattern="^model=WRC-\d+?T2$">
+    <description>Elecom WiFi Router</description>
+    <example>model=WRC-2533GS2</example>
+    <param pos="0" name="hw.vendor" value="Elecom"/>
+    <param pos="0" name="hw.family" value="Router"/>
+    <param pos="0" name="hw.product" value="WiFi Router"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:elecom:wifi_router:-"/>
+    <param pos="0" name="hw.device" value="Network Router"/>
+  </fingerprint>
+
+  <fingerprint pattern="^model=AS[16]\d+(T|R)$">
+    <description>Asustor NAS</description>
+    <example>model=AS6212R</example>
+    <param pos="0" name="hw.vendor" value="Asustor"/>
+    <param pos="0" name="hw.family" value="NAS"/>
+    <param pos="0" name="hw.product" value="NAS"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:asustor:nas:-"/>
+    <param pos="0" name="hw.device" value="NAS"/>
+  </fingerprint>
+
+  <fingerprint pattern="^modelName=(EWS|EAP|ENH|ENS)(202EXTv2|610EXT|357AP|1300|1350EXT|500v3)$">
+    <description>EnGenius WiFi AP</description>
+    <example>modelName=ENH1350EXT</example>
+    <param pos="0" name="hw.vendor" value="EnGenius"/>
+    <param pos="0" name="hw.family" value="ENH"/>
+    <param pos="0" name="hw.product" value="WiFi AP"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:engenius:enh:-"/>
+    <param pos="0" name="hw.device" value="WiFi"/>
+  </fingerprint>
+
+  <fingerprint pattern="^build\.company=ZKTeco$">
+    <description>ZKTeco Security System</description>
+    <example>build.company=ZKTeco</example>
+    <param pos="0" name="hw.vendor" value="ZKTeco"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:zkteco:security:-"/>
+    <param pos="0" name="hw.device" value="Physical Security"/>
+  </fingerprint>
+
+  
+  <fingerprint pattern="^model=ENH(1350EXT|500v3)$">
+    <description>EnGenius WiFi AP</description>
+    <example>model=ENH1350EXT</example>
+    <param pos="0" name="hw.vendor" value="EnGenius"/>
+    <param pos="0" name="hw.family" value="ENH"/>
+    <param pos="0" name="hw.product" value="WiFi AP"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:engenius:enh:-"/>
+    <param pos="0" name="hw.device" value="WiFi"/>
+  </fingerprint>
+
+  <fingerprint pattern="^platform=tcd/Series(2|3)$">
+    <description>TiVo TCD DVR</description>
+    <example>platform=tcd/Series2</example>
+    <param pos="0" name="hw.vendor" value="TiVo"/>
+    <param pos="0" name="hw.family" value="TCD"/>
+    <param pos="0" name="hw.product" value="DVR"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:tivo:tcd:-"/>
+    <param pos="0" name="hw.device" value="DVR"/>
+  </fingerprint>
+
+  
+  <fingerprint pattern="^vendor=Iddero$">
+    <description>iddero Home Server</description>
+    <example>vendor=Iddero</example>
+    <param pos="0" name="hw.vendor" value="iddero"/>
+    <param pos="0" name="hw.family" value="Home Server"/>
+    <param pos="0" name="hw.product" value="Home Server"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:iddero:home_server:-"/>
+    <param pos="0" name="hw.device" value="Home"/>
+  </fingerprint>
+
+
+
+</fingerprints>

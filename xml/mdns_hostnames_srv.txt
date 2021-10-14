@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprints matches="mdns.hostname.txt" protocol="mdns" database_type="util.os">
+  <fingerprint pattern="^PS4-\h+\.local\.">
+    <description>Playstation</description>
+    <example>PS4-3242EC.local.</example>
+    <param pos="0" name="os.vendor" value="Sony"/>
+    <param pos="0" name="os.product" value="Playstation4"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:sony:playstation_4:-"/>
+    <param pos="0" name="hw.vendor" value="Sony"/>
+    <param pos="0" name="hw.product" value="Playstation"/>
+    <param pos="0" name="hw.device" value="Game Console"/>
+  </fingerprint>
+
+  <fingerprint pattern="^PS5-\h+\.local\.">
+    <description>Playstation</description>
+    <example>PS5-3242EC.local.</example>
+    <param pos="0" name="os.vendor" value="Sony"/>
+    <param pos="0" name="os.product" value="Playstation5"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:sony:playstation_5:-"/>
+    <param pos="0" name="hw.vendor" value="Sony"/>
+    <param pos="0" name="hw.product" value="Playstation"/>
+    <param pos="0" name="hw.device" value="Game Console"/>
+  </fingerprint>
+
+  <fingerprint pattern="^flow-43.*?\.local\.">
+    <description>Ikusi Flow</description>
+    <example>flow-4314SB049795.local.</example>
+    <param pos="0" name="os.vendor" value="Ikusi"/>
+    <param pos="0" name="os.product" value="Flow"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:ikusi:flow:-"/>
+    <param pos="0" name="hw.vendor" value="Ikusi"/>
+    <param pos="0" name="hw.product" value="Flow"/>
+    <param pos="0" name="hw.device" value="Server"/>
+  </fingerprint>
+
+  <fingerprint pattern="^Bose-SM2-\h+\.local\.">
+    <description>BOSE SoundTouch 20</description>
+    <example>Bose-SM2-209148ada2f3.local.</example>
+    <param pos="0" name="os.vendor" value="Bose"/>
+    <param pos="0" name="os.product" value="SoundTouch"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:bose:soundtouch:-"/>
+  </fingerprint>
+
+  <fingerprint pattern="^Bose-SB700-\h+\.local\.">
+    <description>BOSE Soundbar 700</description>
+    <example>Bose-SB700-60abd24ec577.local.</example>
+    <param pos="0" name="os.vendor" value="Bose"/>
+    <param pos="0" name="os.product" value="Soundbar700"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:bose:soundbar:-"/>
+  </fingerprint>
+
+  <fingerprint pattern="^d2flex3k-[0-9]+.*?\.local\.">
+    <description>D2Flex 3000</description>
+    <example>Bose-SB700-60abd24ec577.local.</example>
+    <param pos="0" name="os.vendor" value="D2D"/>
+    <param pos="0" name="os.product" value="Flex"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:d2d:flex:-"/>
+    <param pos="0" name="hw.device" value="Video Gateway"/>
+  </fingerprint>
+
+  <fingerprint pattern="^ATEM-TV-STUDIO-\h+\.local\.">
+    <description>Blackmagic ATEM TV Studio</description>
+    <example>ATEM-TV-STUDIO-7c2e0d089de2.local.</example>
+    <param pos="0" name="os.vendor" value="Blackmagic"/>
+    <param pos="0" name="os.product" value="ATEM TV Studio"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:blackmagic:atem:-"/>
+    <param pos="0" name="hw.device" value="Television Broadcasting"/>
+  </fingerprint>
+  
+  <fingerprint pattern="^ATEM-HDA-\h+\.local\.">
+    <description>Blackmagic ATEM HDMI Livestream</description>
+    <example>ATEM-TV-STUDIO-7c2e0d089de2.local.</example>
+    <param pos="0" name="os.vendor" value="Blackmagic"/>
+    <param pos="0" name="os.product" value="ATEM HDMI Livestream"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:blackmagic:atem:-"/>
+    <param pos="0" name="hw.device" value="Television Broadcasting"/>
+  </fingerprint>
+
+  <fingerprint pattern="^ATEM-4K.*?-\h+\.local\.">
+    <description>Blackmagic ATEM 4k </description>
+    <example>ATEM-4K1ME-7c2e0d088833.local.</example>
+    <param pos="0" name="os.vendor" value="Blackmagic"/>
+    <param pos="0" name="os.product" value="ATEM 4K Studio"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:blackmagic:atem:-"/>
+    <param pos="0" name="hw.device" value="Television Broadcasting"/>
+  </fingerprint>
+
+  <fingerprint pattern="^eGauge[0-9]+.*?\.local\.">
+    <description>eGauge Energy Meter</description>
+    <example>eGauge22420.local.</example>
+    <param pos="0" name="os.vendor" value="eGauge"/>
+    <param pos="0" name="os.product" value="Core"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:egauge:core:-"/>
+    <param pos="0" name="hw.device" value="Energy Meter"/>
+  </fingerprint>
+
+  
+  <fingerprint pattern="^ic-ii-[0-9]+\.local\.">
+    <description>Vantage inFusion Controller</description>
+    <example>ic-ii-5904918.local.</example>
+    <param pos="0" name="os.vendor" value="Vantage"/>
+    <param pos="0" name="os.product" value="inFusion"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:vantage:infusion:-"/>
+    <param pos="0" name="hw.device" value="Office Controller"/>
+  </fingerprint>
+
+  <fingerprint pattern="^jeedom.*?\.local\.">
+    <description>Jeedom Atlas Home Automation</description>
+    <example>jeedom.local.</example>
+    <param pos="0" name="os.vendor" value="Jeedom"/>
+    <param pos="0" name="os.product" value="Atlas"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:jeedom:atlas:-"/>
+    <param pos="0" name="hw.device" value="Home Automation"/>
+  </fingerprint>
+
+  <fingerprint pattern="^energymeter[0-9]+.*?\.local\.">
+    <description>SMA Energy Meter</description>
+    <example>energymeter1900242617.local.</example>
+    <param pos="0" name="os.vendor" value="SMA"/>
+    <param pos="0" name="os.product" value="Unknown"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:sma:energy:-"/>
+    <param pos="0" name="hw.device" value="Energy Meter"/>
+  </fingerprint>
+
+  <fingerprint pattern="envoy*?\.local\.">
+    <description>Enphase Envoy Smart Home</description>
+    <example>envoy.local.</example>
+    <param pos="0" name="os.vendor" value="Enphase"/>
+    <param pos="0" name="os.product" value="Envoy"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:enphase:envoy:-"/>
+    <param pos="0" name="hw.device" value="Home Automation"/>
+  </fingerprint>
+
+  <fingerprint pattern="^FP00112A\S+\.local.">
+    <description>Niko Home Control</description>
+    <example>FP00112A2221CF.local.</example>
+    <param pos="0" name="os.vendor" value="Niko"/>
+    <param pos="0" name="os.product" value="HomeControl"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:niko:homecontrol:-"/>
+    <param pos="0" name="hw.device" value="Home Automation"/>
+  </fingerprint>
+
+  <fingerprint pattern="^futurehome-smarthub.*?\.local">
+    <description>Futurehome Hub</description>
+    <example>futurehome-smarthub.local.</example>
+    <param pos="0" name="os.vendor" value="Futurehome"/>
+    <param pos="0" name="os.product" value="Hub"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:futurehome:hub:-"/>
+    <param pos="0" name="hw.device" value="Home Automation"/>
+  </fingerprint>
+
+  <fingerprint pattern="^HCL-[0-9]+\.local\.">
+    <description>Fibaro Home Center</description>
+    <example>HCL-002801.local.</example>
+    <param pos="0" name="os.vendor" value="Fibaro"/>
+    <param pos="0" name="os.product" value="Home Center"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:fibaro:home_center:-"/>
+    <param pos="0" name="hw.device" value="Home Automation"/>
+  </fingerprint>
+
+  <fingerprint pattern="^homecenter\.local\.">
+    <description>Stijnen Home Center</description>
+    <example>homecenter.local.</example>
+    <param pos="0" name="os.vendor" value="Stijnen"/>
+    <param pos="0" name="os.product" value="Home Center"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:Stijnen:home_center:-"/>
+    <param pos="0" name="hw.device" value="Home Automation"/>
+  </fingerprint>
+
+  <fingerprint pattern="^hubitat\.local\.">
+    <description>Hubitat Home Automation</description>
+    <example>hubitat.local.</example>
+    <param pos="0" name="os.vendor" value="Hubitat"/>
+    <param pos="0" name="os.product" value="Home Center"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:hubitat:home_center:-"/>
+    <param pos="0" name="hw.device" value="Home Automation"/>
+  </fingerprint>
+
+  <fingerprint pattern="^Netatmo(.?)\.local\.">
+    <description>Netatmo Weather Station</description>
+    <example></example>
+    <param pos="0" name="os.vendor" value="netatmo"/>
+    <param pos="0" name="os.product" value="Weather Station"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:netatmo:weather_station:-"/>
+    <param pos="0" name="hw.device" value="Weather"/>
+  </fingerprint>
+
+
+  <fingerprint pattern="^Philips-hue.local.">
+    <description>Philips Hue Light</description>
+    <example>Philips-hue.local.</example>
+    <param pos="0" name="os.vendor" value="Philips"/>
+    <param pos="0" name="os.product" value="Hue"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:philips:hue:-"/>
+    <param pos="0" name="hw.device" value="Home Automation"/>
+  </fingerprint>
+
+  <fingerprint pattern="^sav-\h+\.local\.">
+    <description>Savant Smart Home</description>
+    <example>sav-001aae11204b0000.local.</example>
+    <param pos="0" name="os.vendor" value="Savant"/>
+    <param pos="0" name="os.product" value="SmartHome"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:savant:smart_home:-"/>
+    <param pos="0" name="hw.device" value="Home Automation"/>
+  </fingerprint>
+
+  <fingerprint pattern="^TYDOM-[0-9]+\.local\.">
+    <description>Delta Dore Tydom Home Controller</description>
+    <example>TYDOM-010167.local.</example>
+    <param pos="0" name="os.vendor" value="Delta Dore"/>
+    <param pos="0" name="os.product" value="Tydom"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:delta_dore:tydom:-"/>
+    <param pos="0" name="hw.device" value="Home Automation"/>
+  </fingerprint>
+
+  <fingerprint pattern="^Vitocom\.local\.">
+    <description>Viessmann Vitocom Thermal Monitor</description>
+    <example>Vitocom.local.</example>
+    <param pos="0" name="os.vendor" value="Viessmann"/>
+    <param pos="0" name="os.product" value="Vitocom"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:viessmann:vitocom:-"/>
+    <param pos="0" name="hw.device" value="Home Automation"/>
+  </fingerprint>
+
+  <fingerprint pattern="^bha-[0-9a-fA-F]+\.local\.">
+    <description>DoorBird Doorbell</description>
+    <example>bha-1CCAE3718598.local.</example>
+    <param pos="0" name="os.vendor" value="DoorBird"/>
+    <param pos="0" name="os.product" value="Doorbell"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:doorbird:doorbell:-"/>
+    <param pos="0" name="hw.device" value="Home Automation"/>
+  </fingerprint>
+
+  <fingerprint pattern="^EP300Pro-[0-9]+.*?\.local">
+    <description>Anviz EP300Pro Time Attendance Terminal</description>
+    <example>EP300Pro-0730200020100357.local.</example>
+    <param pos="0" name="os.vendor" value="Anviz"/>
+    <param pos="0" name="os.product" value="EP300Pro"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:anviz:ep300pro:-"/>
+    <param pos="0" name="hw.device" value="Time Terminal"/>
+  </fingerprint>
+
+  <fingerprint pattern="^elgato.*?\.local\.">
+    <description>Elgato Light</description>
+    <example>elgato-key-light-air-5d27.local.</example>
+    <param pos="0" name="os.vendor" value="Elgato"/>
+    <param pos="0" name="os.product" value="Light"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:elgato:light:-"/>
+    <param pos="0" name="hw.device" value="Light Bulb"/>
+  </fingerprint>
+
+
+  <fingerprint pattern="^biostation2.*?\.local\.">
+    <description>Suprema Biostation2 Biometric Reader</description>
+    <example>biostation2-3.local.</example>
+    <param pos="0" name="os.vendor" value="Suprema"/>
+    <param pos="0" name="os.product" value="Biostation2"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:suprema:biostation2:-"/>
+    <param pos="0" name="hw.device" value="Biometrics"/>
+  </fingerprint>
+
+  <fingerprint pattern="^wemo_.*?\.local\.">
+    <description>WEMO Power Outlet</description>
+    <example>wemo_mini-56.local.</example>
+    <param pos="0" name="os.vendor" value="Wemo"/>
+    <param pos="0" name="os.product" value="Power"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:wemo:power:-"/>
+    <param pos="0" name="hw.device" value="Light Bulb"/>
+  </fingerprint>
+
+  <fingerprint pattern="^(spaceLYnk|WiserforKNX).*\.local\.">
+    <description>Schneider Electric Logic Controller</description>
+    <example>WiserforKNX.local.</example>
+    <param pos="0" name="os.vendor" value="Schneider"/>
+    <param pos="0" name="os.product" value="Logic Controller"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:schneider:logic_controller:-"/>
+    <param pos="0" name="hw.device" value="Logic Controller"/>
+  </fingerprint>
+
+
+  <fingerprint pattern="^solar(-monitor|-remote).*\.local\.">
+    <description>Panasonic Solar Panel</description>
+    <example>solar-monitor.local.</example>
+    <param pos="0" name="os.vendor" value="Panasonic"/>
+    <param pos="0" name="os.product" value="Solar Panel"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:panasonic:solar_panel:-"/>
+    <param pos="0" name="hw.device" value="Home Automation"/>
+  </fingerprint>
+
+ <fingerprint pattern="^[Bb]right[Ss]ign.*?\.local\.">
+    <description>BrightSign Digital Sign</description>
+    <example>BrightSign-35D713002989.local.</example>
+    <param pos="0" name="os.vendor" value="BrightSign"/>
+    <param pos="0" name="os.product" value="Digital Sign"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:brightsign:digital_sign:-"/>
+    <param pos="0" name="hw.device" value="Digital Sign"/>
+  </fingerprint>
+
+  <fingerprint pattern="^rikomagic.*?\.local\.">
+    <description>Rikomagic Digital Sign</description>
+    <example>rikomagic.local.</example>
+    <param pos="0" name="os.vendor" value="Riko Magic"/>
+    <param pos="0" name="os.product" value="Digital Sign"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:ricomagic:digital_sign:-"/>
+    <param pos="0" name="hw.device" value="Digital Sign"/>
+  </fingerprint>
+
+  <fingerprint pattern="^Makerbot-[0-9a-fA-F]+\.local\.">
+    <description>Makerbot 3D Printer</description>
+    <example>Makerbot-0263A2.local.</example>
+    <param pos="0" name="os.vendor" value="Makerbot"/>
+    <param pos="0" name="os.product" value="3D Printer"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:makerbot:3d_printer:-"/>
+    <param pos="0" name="hw.device" value="3D Printer"/>
+  </fingerprint>
+
+  <fingerprint pattern="^hme-zoom-[0-9a-fA-F]+">
+    <description>HME Zoom Vehicle Tracking System</description>
+    <example>hme-zoom-009c83.local.</example>
+    <param pos="0" name="os.vendor" value="HME"/>
+    <param pos="0" name="os.product" value="Zoom"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:hme:zoom:-"/>
+    <param pos="0" name="hw.device" value="Tracking"/>
+  </fingerprint>
+
+  <fingerprint pattern="^bosch-dishwasher-\d+\.local\.">
+    <description>Bosche Dishwasher</description>
+    <example>bosch-dishwasher-010110524691006752.local.</example>
+    <param pos="0" name="os.vendor" value="Bosche"/>
+    <param pos="0" name="os.product" value="Dishwasher"/>
+    <param pos="0" name="os.cpe23" value="cpe:/h:bosche:dishwasher:-"/>
+    <param pos="0" name="hw.device" value="Kitchen Appliance"/>
+  </fingerprint>
+</fingerprints>
+
+

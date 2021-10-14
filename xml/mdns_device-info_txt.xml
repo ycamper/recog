@@ -2300,4 +2300,155 @@
     <param pos="0" name="hw.cpe23" value="cpe:/h:apple:iphone:-"/>
   </fingerprint>
 
+  <fingerprint pattern="^mn=Cube-725$">
+    <description>Teradek Cube 725 AV Decoder</description>
+    <example>mn=Cube-725</example>
+    <param pos="0" name="hw.vendor" value="Teradek"/>
+    <param pos="0" name="hw.family" value="Cube"/>
+    <param pos="0" name="hw.product" value="Cube 725"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:teradek:cube:-"/>
+    <param pos="0" name="hw.device" value="AV Decoder"/>
+  </fingerprint>
+
+  <fingerprint pattern="^mn=Cube-675$">
+    <description>Teradek Cube 675 WiFi AV Decoder</description>
+    <example>mn=Cube-675</example>
+    <param pos="0" name="hw.vendor" value="Teradek"/>
+    <param pos="0" name="hw.family" value="Cube"/>
+    <param pos="0" name="hw.product" value="Cube 675"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:teradek:cube:-"/>
+    <param pos="0" name="hw.device" value="AV Decoder"/>
+  </fingerprint>
+
+  <fingerprint pattern="^mn=Cube-755$">
+    <description>Teradek Cube 755 AV Encoder</description>
+    <example>mn=Cube-755</example>
+    <param pos="0" name="hw.vendor" value="Teradek"/>
+    <param pos="0" name="hw.family" value="Cube"/>
+    <param pos="0" name="hw.product" value="Cube 755"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:teradek:cube:-"/>
+    <param pos="0" name="hw.device" value="AV Encode"/>
+  </fingerprint>
+
+  <fingerprint pattern="^mn=Cube-105$">
+    <description>Teradek Cube 105 AV Encoder</description>
+    <example>mn=Cube-105</example>
+    <param pos="0" name="hw.vendor" value="Teradek"/>
+    <param pos="0" name="hw.family" value="Cube"/>
+    <param pos="0" name="hw.product" value="Cube 105"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:teradek:cube:-"/>
+    <param pos="0" name="hw.device" value="AV Encoder"/>
+  </fingerprint>
+
+  <fingerprint pattern="^mn=Cube-605$">
+    <description>Teradek Cube 605 AV GbE Encoder</description>
+    <example>mn=Cube-605</example>
+    <param pos="0" name="hw.vendor" value="Teradek"/>
+    <param pos="0" name="hw.family" value="Cube"/>
+    <param pos="0" name="hw.product" value="Cube 605"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:teradek:cube:-"/>
+    <param pos="0" name="hw.device" value="AV Encoder"/>
+  </fingerprint>
+
+  <fingerprint pattern="^mn=Cube-655$">
+    <description>Teradek Cube 655 AV GbE WiFi Encoder</description>
+    <example>mn=Cube-655</example>
+    <param pos="0" name="hw.vendor" value="Teradek"/>
+    <param pos="0" name="hw.family" value="Cube"/>
+    <param pos="0" name="hw.product" value="Cube 655"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:teradek:cube:-"/>
+    <param pos="0" name="hw.device" value="AV Encoder"/>
+  </fingerprint>
+
+  <fingerprint pattern="^mn=Cube-205$">
+    <description>Teradek Cube 205 AV HDMI Decoder</description> 
+    <example>mn=Cube-205</example>
+    <param pos="0" name="hw.vendor" value="Teradek"/>
+    <param pos="0" name="hw.family" value="Cube"/>
+    <param pos="0" name="hw.product" value="Cube 205"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:teradek:cube:-"/>
+    <param pos="0" name="hw.device" value="AV Decoder"/>
+  </fingerprint>
+
+  <fingerprint pattern="^mn=Cube-105$">
+    <description>Teradek Cube 105 AV HDMI Encoder</description> 
+    <example>mn=Cube-105</example>
+    <param pos="0" name="hw.vendor" value="Teradek"/>
+    <param pos="0" name="hw.family" value="Cube"/>
+    <param pos="0" name="hw.product" value="Cube 105"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:teradek:cube:-"/>
+    <param pos="0" name="hw.device" value="AV Encoder"/>
+  </fingerprint>
+
+  <fingerprint pattern="^mn=Cube-\d+$">
+    <description>Teradek Cube Device</description> 
+    <example>mn=Cube-105</example>
+    <param pos="0" name="hw.vendor" value="Teradek"/>
+    <param pos="0" name="hw.family" value="Cube"/>
+    <param pos="0" name="hw.product" value="Cube Generic"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:teradek:cube:-"/>
+    <param pos="0" name="hw.device" value="AV Encoder/Decoder"/>
+  </fingerprint>
+
+  <fingerprint pattern="^mn=T-RAX.*$">
+    <description>Teradek T-RAX 2U AV Encoder/Decoder</description>
+    <example>mn=T-RAX</example>
+    <param pos="0" name="hw.vendor" value="Teradek"/>
+    <param pos="0" name="hw.family" value="T-RAX"/>
+    <param pos="0" name="hw.product" value="T-RAX"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:teradek:t_rax:-"/>
+    <param pos="0" name="hw.device" value="AV Encoder / Decoder"/>
+  </fingerprint>
+
+  <fingerprint pattern="^mn=Slice-656$">
+    <description>Teradek Slice-656 1U AV Encoder</description>
+    <example>mn=Slice-656</example>
+    <param pos="0" name="hw.vendor" value="Teradek"/>
+    <param pos="0" name="hw.family" value="Slice"/>
+    <param pos="0" name="hw.product" value="656"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:teradek:slice:-"/>
+    <param pos="0" name="hw.device" value="AV Encoder"/>
+  </fingerprint>
+
+  <fingerprint pattern="^mn=Slice-356$">
+    <description>Teradek Slice-356 1U AV Decoder</description>
+    <example>mn=Slice-356</example>
+    <param pos="0" name="hw.vendor" value="Teradek"/>
+    <param pos="0" name="hw.family" value="Slice"/>
+    <param pos="0" name="hw.product" value="356"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:teradek:slice:-"/>
+    <param pos="0" name="hw.device" value="AV Decoder"/>
+  </fingerprint>
+
+  <fingerprint pattern="^mn=Slice-166$">
+    <description>Teradek Slice-166 1U AV Encoder</description>
+    <example>mn=Slice-166</example>
+    <param pos="0" name="hw.vendor" value="Teradek"/>
+    <param pos="0" name="hw.family" value="Slice"/>
+    <param pos="0" name="hw.product" value="166"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:teradek:slice:-"/>
+    <param pos="0" name="hw.device" value="AV Encoder"/>
+  </fingerprint>
+  
+  <fingerprint pattern="^mn=Slice-676$">
+    <description>Teradek Slice-676 1U AV Decoder</description>
+    <example>mn=Slice-676</example>
+    <param pos="0" name="hw.vendor" value="Teradek"/>
+    <param pos="0" name="hw.family" value="Slice"/>
+    <param pos="0" name="hw.product" value="676"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:teradek:slice:-"/>
+    <param pos="0" name="hw.device" value="AV Decoder"/>
+  </fingerprint>
+
+  <fingerprint pattern="^model=familibox$">
+    <description>Famlibox Security Router</description>
+    <example>model=familibox</example>
+    <param pos="0" name="hw.vendor" value="Famlibox"/>
+    <param pos="0" name="hw.product" value="Famlibox Secure Gateway"/>
+    <param pos="0" name="hw.device" value="WiFi Router"/>
+    <param pos="0" name="hw.cpe23" value="cpe:/h:familibox:famlibox:-"/>
+  </fingerprint>
+
+
+
 </fingerprints>
