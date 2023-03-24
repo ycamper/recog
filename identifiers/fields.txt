@@ -85,6 +85,7 @@ service.family
 service.node
 service.product
 service.protocol
+service.update
 service.vendor
 service.version
 service.version.version
